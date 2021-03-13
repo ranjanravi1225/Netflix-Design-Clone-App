@@ -1,15 +1,16 @@
 export const headingData =
 {
     id: Math.random().toString(),
-    imageLink: 'https://s3images.zee5.com/wp-content/uploads/sites/7/2021/01/tandav-784x441.jpg',
+    imageLink: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFcny1MwIwpqzYKeLpP2LpA1dWySXISUy5Q&usqp=CAU',
     title: "Netflix original ",
     starRating: '*****',
-    description: "Tandav is an Indian political thriller web series on Amazon Prime Video",
+    description: "Netflix streams movies and has more than 151 million paid subscribers in over 190 countries around the world.",
     yearOfPublish: 2013,
     season: "Season 1",
     quality: 'HD',
     qualityRating: '5.1'
 }
+
 
 export const webSeriesData =
     [
@@ -34,7 +35,7 @@ export const webSeriesData =
         {
             id: Math.random().toString(),
             title: 'FAUDA',
-            season: "Season 1",
+            season: "Season 3",
             imageLink: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcl4n72yCz9RDpl3T8LvAYmQUz2y7Crd1aLA&usqp=CAU'
         },
         {

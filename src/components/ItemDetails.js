@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dimensions, Image, StyleSheet, Text, TouchableOpacity, View, Linking } from 'react-native';
+import { Dimensions, Image, StyleSheet, Text, TouchableOpacity, View, Linking, Share, Alert } from 'react-native';
 import { Colors } from './Colors';
 import Entypo from 'react-native-vector-icons/Entypo';
 
@@ -38,7 +38,6 @@ export default function ItemDetals(props) {
                     <Text style={styles.watchText}>Watch Now</Text>
                 </View>
             </TouchableOpacity>
-
         </View>
     );
 }
